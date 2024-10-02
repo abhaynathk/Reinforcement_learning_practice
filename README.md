@@ -10,6 +10,8 @@ Q-Learning is a fundamental algorithm in the field of reinforcement learning, kn
 Type: Model-free, Off-policy
 •	Model-free: Q-Learning does not require a model of the environment. This means it doesn't need to know the transition probabilities or the reward function beforehand. Instead, it learns directly from interactions with the environment.
 •	Off-policy: Q-Learning learns the value of the optimal policy independently of the agent's actions. It uses the greedy policy (choosing the action with the highest Q-value) for learning, even if the agent is exploring using a different policy (e.g., epsilon-greedy).
+
+
 ![image](https://github.com/user-attachments/assets/6c089531-3a87-4bef-a421-6e6f6ce35dc9)
 
 ![image](https://github.com/user-attachments/assets/5d6e03c5-9068-49de-98f0-63316f80dc73)
