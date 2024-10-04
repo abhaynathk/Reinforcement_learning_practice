@@ -60,6 +60,25 @@ What you can change: Add complexity by making the environment multi-dimensional 
 Impact: Q-learning has several variants that could improve learning.
 What you can change: You could try Double Q-Learning to reduce overestimation of action values, or SARSA for more stable learning by updating based on the next action the agent will take.
 
+**SARSA (State-Action-Reward-State
+Action)**
+
+SARSA (State-Action-Reward-State-Action) is an on-policy reinforcement learning algorithm used to 
+learn the Q-values (state-action values) for an agent. It is very similar to Q-learning, but the key 
+difference is that SARSA learns the value of the current policy that the agent is following, while Qlearning learns the value of the optimal policy, regardless of the actions the agent actually takes.
+
+Key Concepts of SARSA:
+• State (s): The current situation of the agent in the environment.
+• Action (a): The action the agent takes from the set of possible actions in state s.
+• Reward (r): The reward the agent receives after taking action a in state s.
+• Next State (s'): The state to which the agent transitions after taking action a.
+• Next Action (a'): The action that the agent chooses in the next state s'.
+
+![image](https://github.com/user-attachments/assets/eb958870-dc31-41e0-9ad2-3dd1f81b01c4)
+
+
+
+
 
 
 
